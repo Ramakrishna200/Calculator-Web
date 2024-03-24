@@ -54,3 +54,15 @@ form .dis input{
 form input .op{
     color: aqua;
 }
+
+@media (max-width: 600px) {
+    .calculator form input {
+        width: 40px;
+        height: 40px;
+        font-size: 16px;
+    }
+
+    form .dis input {
+        font-size: 24px;
+    }
+}
